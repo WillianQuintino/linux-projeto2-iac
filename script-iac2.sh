@@ -6,6 +6,8 @@ apt-get upgrade -y
 apt-get install apache2 -y
 apt-get install unzip -y
 
+clear
+
 
 echo "Baixando e copiando os arquivos da aplicação..."
 
@@ -15,5 +17,6 @@ unzip main.zip
 cd linux-site-dio-main
 cp -R * /var/www/html/
 
+clear
 
-
+echo "Processo finalizado da de configuração e intalação do site"
